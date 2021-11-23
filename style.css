@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#menu {
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #ffffff;
+}
+#menu input {
+    height: 20px;
+    margin-top: 20px;
+    border-radius: 15px;
+    border-color: transparent;
+    background: #c3bfbc;
+}
+.NavBarLogo {
+    width: 80px;
+    height: auto;
+}
+#menu ul li {
+    display: inline;
+    text-decoration: none;
+}
+
+#menu a {
+    text-decoration: none;
+    margin
+    font-size: 17px;
+    margin-left: 45px;
+    font-weight: bold;
+    color: #54524f;
+}
+ul {
+    list-style-type: none;
+    justify-content: flex-end;
+}
