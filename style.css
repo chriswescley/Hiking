@@ -384,13 +384,13 @@ ul {
 .mountains-detail-bottom {
     width: 110%;
     height: 200px;
-    position: absolute;
+    position: relative;
     background-image: url('img/Hiker-img-shape-2.png');
     background-repeat: no-repeat;
     background-size: cover;
     bottom: -105px;
     left: -55;
-    z-index: 10;
+    z-index: 2;
     margin-left: -20px;
 }
 
@@ -413,4 +413,63 @@ ul {
     font-size: 29px;
     color: #dbdbdb;
     font-weight: 400;
+}
+
+/*Explorer section*/
+ {
+    
+}
+.explorer {
+    margin-top: 200px;
+    margin-bottom: 100px;
+    height: 1200px;
+    width: auto;
+    background-image: url('img/explorer-world.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+
+.explorer-detail-top{
+    width: 105%;
+    height: 250px;
+    position: absolute;
+    background-image: url('img/Hiker-img-shape-1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -50px;
+    top: -55px;
+    left: -30px;
+    right: 0px;
+}
+
+.explorer-detail-bottom {
+    width: 110%;
+    height: 180px;
+    position: relative;
+    background-image: url('img/Hiker-img-shape-2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    bottom: -300px;
+    left: -55;
+    margin-left: -20px;
+}
+
+.explorer-title {
+    padding-top: 520px;
+    margin-left: 65%;
+    margin-right: 180px;
+    font-size: 86px;
+    font-style: italic;
+    color: #deb37e;
+    font-weight: 800;
+    filter: drop-shadow(2.575px -4.286px 2.5px rgba(84,82,79,0.36));
+    text-transform: uppercase;
+    text-align: right;
+}
+
+.explorer-color-change {
+    color: #54524f;
 }
