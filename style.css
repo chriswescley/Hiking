@@ -7,6 +7,9 @@
 body {
     overflow-x: hidden;
 }
+
+/*navbar*/
+
 #menu {
     width: 95vw;
     margin: 50px;
@@ -20,7 +23,7 @@ body {
 }
 #menu input {
     height: 30px;
-    width: 80px;
+    width: 120px;
     margin-top: 20px;
     margin-left: 10px;
     border-radius: 15px;
@@ -53,9 +56,9 @@ ul {
 }
 
 .search-btn {
-    height: 34px;
+    height: 25px;
     width: 30px;
-    margin-left: -25px;
+    margin-left: -29px;
     background-color: #c3bfbc;
     border-radius: 15px;
     border: transparent;
@@ -65,8 +68,10 @@ ul {
     cursor: pointer;
 }
 
-.main-section {
-    max-width: 100%;
+/* Hiking section*/
+
+.hiking-section {
+    width: 105%;
     height: 140vh;
     background-image: url('img/Hiker.png');
     background-size: 100%;
@@ -75,7 +80,7 @@ ul {
     
 }
 
-.top {
+.top-detail {
     width: 105vw;
     height: 250px;
     position: absolute;
@@ -88,7 +93,7 @@ ul {
     z-index: 10;
 }
 
-.bottom {
+.bottom-detail {
     width: 110%;
     height: 250px;
     position: absolute;
@@ -147,4 +152,99 @@ ul {
     color: #54524f;
     font-weight: 800;
     font-style: italic;
+}
+
+/*lets go section*/ 
+.lets-go {
+    width: auto;
+    height: auto;
+}
+.lets-go-title {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 63px;
+    color: #e2a355;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.lets-go-description {
+    text-align: center;
+    font-size: 27px;
+    color: #7f7770;
+    height: 200px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.itens {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 10vh;
+    margin-left: 20%;
+}
+
+.itens-title h3{
+    padding-top: 10vh;
+    padding-left: 20vh;
+    font-size: 3rem;
+    font-weight: 500;
+    color: hsl(233, 26%, 24%);
+}
+
+
+.itens img {
+    width: 339px;
+    height: 227px;
+}
+
+.item-title {
+    width: 11vw;
+    margin-top: 10px;
+    margin-left: 3vh;
+    font-weight: 400;
+    color: white;
+}
+
+#item-text {
+    color: white;
+    font-size: 27px;
+    font-weight: 400;
+    width: 300px;
+    height: 200px;
+    margin-left: 3vh;
+}
+
+
+/* Configurações de cada item*/
+
+.item-1 {
+    background-color: #7f776f;
+    width: 339px;
+    margin-right: 5vh;
+    padding-bottom: 5vh;
+}
+
+.item-2 {
+    background-color: #7f776f;
+    width: 339px;
+    margin-right: 5vh;
+    padding-bottom: 5vh;    
+}
+
+.item-3 {
+    background-color: #7f776f;
+    width: 339px;
+    margin-right: 5vh;
+    padding-bottom: 5vh;    
+}
+
+.show-btn {
+    
+    margin-left: 50%;
 }
