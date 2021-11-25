@@ -142,7 +142,11 @@ ul {
     border: transparent;
     background-color: white;
 }
+.more-btn:hover {
+    cursor: pointer;
+    background-color: black;
 
+}
 .hiking-text {
     width: 452px;
     height: 130px;
@@ -158,6 +162,12 @@ ul {
 .lets-go {
     width: auto;
     height: auto;
+    background-image: url('img/Shadow.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position-x: -15%;
+    background-position-y: 95%;
+    
 }
 .lets-go-title {
     margin-top: 100px;
@@ -185,7 +195,7 @@ ul {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding-bottom: 10vh;
+    padding-bottom: 25vh;
     margin-left: 20%;
 }
 
@@ -221,7 +231,7 @@ ul {
 }
 
 
-/* Configurações de cada item*/
+/* Configurações de cada item */
 
 .item-1 {
     background-color: #7f776f;
@@ -241,10 +251,106 @@ ul {
     background-color: #7f776f;
     width: 339px;
     margin-right: 5vh;
-    padding-bottom: 5vh;    
+    padding-bottom: 5vh;   
 }
 
-.show-btn {
-    
-    margin-left: 50%;
+.show-btn-div {
+    margin-top: -150px;
+    width: 300px;
+    height: 60px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
 }
+.show-btn {
+    width: 300px;
+    border-radius: 50px;
+    border: transparent;
+    background-color: #7f7770;
+    font-size: 27px;
+    color: white;
+    font-weight: 800;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.show-btn:hover {
+    background-color: #7a7a7a;
+    color: black;
+    cursor: pointer;
+}
+
+/* grid section */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.grid-item-1 {
+    width: 600px;
+    height: auto;
+}
+.grid-img-1 {
+    width: 950px;
+    height: 705px;
+}
+
+.grid-img-2 {
+    width: 950px;
+    height: 705px;
+    margin-top: -5px;
+}
+
+.grid-item-2 {
+    width: 120%;
+    height: 705px;
+    background-color: #7f7770;
+    margin-left: -5px;
+
+}
+.grid-item-3 {
+    width: 120%;
+    height: 705px;
+    background-color: #deb37e;
+    margin-left: -5px;
+    margin-top: -5px;
+
+}
+
+.grid-item-2-title {
+    margin-top: 150px;
+    margin-left: 80px;
+    width: 550px;
+    font-size: 58px;
+    color: white;
+    font-weight: 700;
+}
+
+.grid-item-2-text {
+    width: 600px;
+    margin-left: 80px;
+    font-size: 29px;
+    color: white;
+    font-weight: 400;
+}
+
+.grid-item-2-btn {
+    margin-left: 80px;
+    margin-top: 30px;
+    width: 330px;
+    height: 70px;
+    border-radius: 50px;
+    border: transparent;
+    background-color: #e2a355;
+    font-size: 29px;
+    font-weight: 600;
+    letter-spacing: 6px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.grid-item-2-btn:hover {
+    cursor: pointer;
+    background-color: #d6831d;
+}
+
