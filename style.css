@@ -231,7 +231,7 @@ ul {
 }
 
 
-/* Configurações de cada item */
+/* Each item config */
 
 .item-1 {
     background-color: #7f776f;
@@ -388,14 +388,11 @@ ul {
     background-image: url('img/Hiker-img-shape-2.png');
     background-repeat: no-repeat;
     background-size: cover;
-    bottom: -105px;
+    bottom: -115px;
     left: -55;
     z-index: 2;
     margin-left: -20px;
 }
-
-
-
 .mountains-title {
     padding-top: 450px;
     text-align: center;
@@ -415,10 +412,7 @@ ul {
     font-weight: 400;
 }
 
-/*Explorer section*/
- {
-    
-}
+/*Explorer section*/   
 .explorer {
     margin-top: 200px;
     margin-bottom: 100px;
@@ -428,9 +422,7 @@ ul {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-
 }
-
 
 .explorer-detail-top{
     width: 105%;
@@ -440,7 +432,7 @@ ul {
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: -50px;
-    top: -55px;
+    top: -110px;
     left: -30px;
     right: 0px;
 }
@@ -472,4 +464,78 @@ ul {
 
 .explorer-color-change {
     color: #54524f;
+}
+
+/*Testimonials*/ 
+
+.testimonials {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 15vh;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+.testimonials-title {
+    font-size: 33px;
+    line-height: 33px;
+    color: #deb37e;
+    font-weight: 700;
+}
+
+.testimonials-text {
+    width: 350px;
+    font-size: 19px;
+    line-height: 25px;
+    color: #333d42;
+    font-weight: 400;
+    padding-top: 20px;
+}
+
+.testimonials-2 {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+/*Quote section*/
+
+.quote {
+    height: 500px;
+    width: auto;
+    background-image: url('img/Shadow2.png');
+    background-repeat: no-repeat;
+    background-position-x: 120%;
+    background-position-y: -35%;
+}
+
+.quote-icon {
+    margin-left: auto;
+    margin-right: 50%;
+    font-size: 100px;
+    font-weight: 700;
+    transform: rotate(180deg);
+    font-style: italic;
+    color: #3f3f3f;
+
+}
+.quote-text {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    color: #3f3f3f;
+}
+
+.quote-autor {
+    margin-left: -50px;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 21px;
+    font-weight: 700;
 }
