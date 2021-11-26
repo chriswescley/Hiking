@@ -508,8 +508,8 @@ ul {
     width: auto;
     background-image: url('img/Shadow2.png');
     background-repeat: no-repeat;
-    background-position-x: 120%;
-    background-position-y: -35%;
+    background-position-x: 135%;
+    background-position-y: 10%;
 }
 
 .quote-icon {
@@ -538,4 +538,116 @@ ul {
     text-align: center;
     font-size: 21px;
     font-weight: 700;
+}
+
+/*Subscribe form*/
+
+.subscribe {
+    margin-top: 20px;
+    margin-bottom: 100px;
+    height: 800px;
+    width: auto;
+    position: relative;
+    background-color: #deb37e;
+}
+
+.subscribe-detail-top{
+    width: 105%;
+    height: 250px;
+    position: absolute;
+    background-image: url('img/Hiker-img-shape-1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -50px;
+    top: -80px;
+    left: -30px;
+    right: 0px;
+}
+
+.subscribe-detail-bottom {
+    width: 110%;
+    height: 180px;
+    position: relative;
+    background-image: url('img/Hiker-img-shape-2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    bottom: -120px;
+    left: -55;
+    margin-left: -20px;
+}
+
+.subscribe-col {
+    padding-top: 200px;
+    text-align: center;
+}
+
+.subscribe-title {
+    font-size: 75px;
+    color: white;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.subscribe-text {
+    font-size: 30px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+}
+
+#form {
+    margin-top: 50px;
+}
+
+#email-form {
+    width: 659px;
+    height: 64px;
+    border: none;
+    border-radius: 32px;
+    outline: 0;
+    padding-left: 10px;
+    color: #54524f;
+    font-size:25px;
+    font-weight: 400;
+}
+
+.form-submit {
+    width: 222px;
+    height: 66px;
+    border-radius: 32px;
+    border: transparent;
+    background-color: #54524f;
+    outline:0;
+    margin-left: -60px;
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+}
+
+.form-submit:hover {
+    cursor:pointer;
+    background-color: #81807d;
+}
+/*Footer*/ 
+
+footer {
+    height: 650px;
+    width: auto;
+    background-color: #7f7770;
+    position: relative;
+}
+
+.footer-detail-top{
+    width: 105%;
+    height: 250px;
+    position: absolute;
+    background-image: url('img/Hiker-img-shape-1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -50px;
+    top: -110px;
+    left: -30px;
+    right: 0px;
 }
