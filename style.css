@@ -199,14 +199,6 @@ ul {
     margin-left: 20%;
 }
 
-.itens-title h3{
-    padding-top: 10vh;
-    padding-left: 20vh;
-    font-size: 3rem;
-    font-weight: 500;
-    color: hsl(233, 26%, 24%);
-}
-
 
 .itens img {
     width: 339px;
@@ -219,18 +211,48 @@ ul {
     margin-left: 3vh;
     font-weight: 400;
     color: white;
+    font-size: 29px;
 }
 
 #item-text {
     color: white;
-    font-size: 27px;
+    font-size: 23px;
     font-weight: 400;
     width: 300px;
     height: 200px;
     margin-left: 3vh;
+    margin-top: 15px;
+    font-weight: 400;
+    margin-bottom: -50px;
 }
 
+.show-btn-div {
+    margin-top: -150px;
+    width: 300px;
+    height: 60px;
+    display: flex;
+    margin-left: 760px;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+.show-btn {
+    width: 350px;
+    height: 90px;
+    border-radius: 50px;
+    border: transparent;
+    background-color: #7f7770;
+    font-size: 27px;
+    color: white;
+    font-weight: 800;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
 
+.show-btn:hover {
+    background-color: #7a7a7a;
+    color: black;
+    cursor: pointer;
+}
 /* Each item config */
 
 .item-1 {
@@ -254,32 +276,7 @@ ul {
     padding-bottom: 5vh;   
 }
 
-.show-btn-div {
-    margin-top: -150px;
-    width: 300px;
-    height: 60px;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 100px;
-}
-.show-btn {
-    width: 300px;
-    border-radius: 50px;
-    border: transparent;
-    background-color: #7f7770;
-    font-size: 27px;
-    color: white;
-    font-weight: 800;
-    letter-spacing: 5px;
-    text-transform: uppercase;
-}
 
-.show-btn:hover {
-    background-color: #7a7a7a;
-    color: black;
-    cursor: pointer;
-}
 
 /* grid section */
 .grid-container {
@@ -590,6 +587,7 @@ ul {
 
 .subscribe-text {
     font-size: 30px;
+    color: #54524f;;
     width: 900px;
     margin-left: auto;
     margin-right: auto;
@@ -744,4 +742,152 @@ footer a {
     border-radius: 50px;  
     padding-top: 5px;
     padding-left: 7px;
+}
+
+/*responsiveness 1366x768*/
+
+@media screen and (max-width: 1366px){
+    .hiking-section {
+        height: 200vh;
+        background-size: 110%;
+        background-position-x: -70px;
+        background-position-y: 25px;
+    }
+
+    .bottom-detail {
+        bottom: -15px;
+    }
+
+    .lets-go {
+        margin-top: -50px;
+    }
+
+    .itens {
+        margin-left: 10%;
+        
+    }
+    .item-title {
+        font-size: 25px;
+    }
+    #item-text {
+        font-size: 20px;
+    }
+
+    .show-btn-div {
+        margin-left: 39%;
+        margin-top: -85px;
+    }
+    .show-btn {
+        width: 300px;
+        height: 60px;
+        font-size: 20px;
+    }
+    .grid-img-1 {
+        width: 800px;
+        height: auto;
+    }
+    .grid-item-2 {
+        width: 700px;
+        height: auto;
+    }
+    .grid-item-2-title {
+        width: 370px;
+        margin-top: 100px;
+        margin-bottom: 10px;
+        font-size: 40px;
+    }
+    .grid-item-2-text {
+        font-size: 25px;
+    }
+    .grid-item-2-btn {
+        width: 280px;
+        height: 60px;
+    }
+    .grid-img-2 {
+        width: 800px;
+        height: 550px;
+    }
+    .grid-item-2 {
+        width: 700px;
+        height: auto;
+    }
+    .grid-item-3 {
+        height: 550px;
+    }
+    .mountains-title {
+        padding-top: 360px;
+        font-size: 50px;
+    }
+    .mountains {
+        height: 130vh;
+        position: relative;
+        background-repeat: no-repeat;
+        background-position-x: -200px;
+        background-position-y: 130px;
+    }
+    .mountains-detail-bottom {
+        bottom: -120px
+    }
+    .explorer-detail-top {
+        background-position-y: -50px;
+    }
+    .explorer {
+        margin-top: 150px;
+        margin-bottom: 100px;
+        margin-left: -100px;
+        height: 900px;
+        width: auto;
+    }
+    .explorer-detail-bottom {
+        bottom: -220px;
+    }
+    .explorer-title {
+        padding-top: 400px;
+        width: 500px;
+        font-size: 75px;
+        font-weight: 800;
+        margin-left: 60%;
+    }   
+    .quote {
+        height: 500px;
+        background-position-x: 165%;
+        position: relative;
+    }
+    .subscribe-title {
+        font-size: 55px;
+    }
+    .subscribe-text {
+        font-size: 25px;
+        color: #54524f;;
+    }
+    #email-form {
+        width: 400px;
+        height: 56px;
+    }
+    
+    .form-submit {
+        height: 56px;
+    }
+    .subscribe-detail-bottom {
+        bottom: -200px;
+    }
+    #footer-container {
+        padding-top: 150px;
+    }
+    footer {
+        height: 650px;
+    }
+    .footer-title {
+        font-size: 28px;
+        margin-top: 50px;
+    }
+    .footer-text {
+        font-size: 20px;
+    }
+    .footer-link-title {
+        font-size: 28px;
+    }
+    .footer-links-col-1 {
+        font-size: 20px;
+    }
 }
