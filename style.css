@@ -891,13 +891,17 @@ footer a {
         font-size: 20px;
     }
 }
-/*responsive 375x Iphone X*/
+/*responsive 375*/
 
 @media screen and (max-width: 600px){
     
     #menu {
         width: 375px;
         margin-left: 10px;
+    }
+    #menu ul li {
+        display: flex;
+        flex-direction: column;
     }
     .top-detail {
         height: 300px;
@@ -975,10 +979,10 @@ footer a {
         margin-left: -40px;
     }
     .grid-item-2-title {
-        width: 350px;
+        width: 300px;
     }
     .grid-item-2-text {
-        width: 350px;
+        width: 320px;
     }
     .mountains-detail-top {
         margin-top: -5px;
@@ -1052,11 +1056,11 @@ footer a {
     }
     #email-form {
         width: 200px;
-        height: 45px;
+        height: 50px;
     }
     .form-submit {
         width: 110px;
-        height: 45px;
+        height: 50px;
         font-size: 15px;
     }
     footer {
