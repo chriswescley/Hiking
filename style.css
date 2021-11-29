@@ -930,11 +930,11 @@ footer a {
         color: black;
     }
     .bottom-detail {
-        bottom: 235px;
-        width: 600px;
+        bottom: 332px;
+        width: 400px;
     }
     .lets-go-title {
-        margin-top: -240px;
+        margin-top: -350px;
         margin-bottom: 20px;
         font-size: 50px;
     }
@@ -950,7 +950,7 @@ footer a {
         background-position-y: 1350px;
     }
     .show-btn-div {
-        margin-left: 90px;
+        margin-left: 45px;
     }
     .grid-container {
         display: flex;
@@ -958,44 +958,50 @@ footer a {
         width: 100%;
     }
     .grid-img-1 {
-        width: 600px;
+        width: 400px;
     }
     .grid-item-2 {
-        width: 600px;
-        height: 550px;
-    }
-    .grid-item-3 {
-        width: 600px;
+        width: 445px;
+        height: 650px;
+        margin-left: -40px;
     }
     .grid-img-2 {
-        width: 600px;
-        height: 450px;
+        width: 400px;
+        height: 350px;
+    }
+    .grid-item-3 {
+        width: 445px;
+        height: 650px;
+        margin-left: -40px;
+    }
+    .grid-item-2-title {
+        width: 350px;
     }
     .grid-item-2-text {
-        width: 400px;
+        width: 350px;
     }
     .mountains-detail-top {
         margin-top: -5px;
-        width: 600px;
+        width: 430px;
     }
     .mountains {
-        width: 600px;
+        width: 400px;
         height: 900px;
     }
     .mountains-title {
-        width: 450px;
-        margin-left: 5%;
+        width: 400px;
+        margin-left: 5px;
     }
     .moutains-text-p {
         width: 350px;
-        margin-left: 13%;
+        text-align: center;
     }
     .mountains-detail-bottom {
         bottom: -150px;
-        width: 106%;
+        width: 420px;
     }
     .explorer-detail-top {
-        width: 615px;
+        width: 510px;
     }
     .explorer {
         background-position-x: -500px;
@@ -1005,7 +1011,10 @@ footer a {
     }
     .explorer-title {
         width: 375px;
-        margin-left: 150px;
+        margin-left: 50px;
+    }
+    body {
+        background-color:red;
     }
     .explorer-detail-bottom {
         bottom:-150px;
@@ -1031,31 +1040,35 @@ footer a {
         margin-left: 10px;
         margin-right: 0px;
     }
-    .subscribe {
-    }
+   
     .subscribe-detail-top {
         margin-top: 75px;
-        width: 600px;
+        width: 410px;
     }
     .subscribe-text {
         width: 100%;
     }
     .subscribe-detail-bottom {
         bottom: -100px;
+        width: 400px;
     }
     #email-form {
-        width: 250px;
+        width: 200px;
         height: 45px;
     }
     .form-submit {
-        width: 250px;
+        width: 110px;
         height: 45px;
+        font-size: 15px;
     }
     footer {
         height: 1500px;
     }
+    .footer-text {
+        width: 300px;
+    }
     .footer-detail-top {
-        width: 600px;
+        width: 410px;
     }
     #footer-container {
         display: flex;
