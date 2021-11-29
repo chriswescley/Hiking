@@ -20,7 +20,7 @@ As seguintes ferramentas foram usadas na construção do projeto: </h3>
  <sub><b>Christian Wescley</b></sub></a> <a href="https://www.linkedin.com/in/christian-wescley/" title="">🚀</a>
 
 
-Feito com ❤️ por Christian Wescley 👋🏽 Entre em contato!
+Feito com ❤️ por Christian Wescley 👋🏽
 
 [![Linkedin Badge](https://img.shields.io/badge/-Christian-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/christian-wescley/)](https://www.linkedin.com/in/christian-wescley/) 
 [![Gmail Badge](https://img.shields.io/badge/-chriswescley@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:chriswescley@gmail.com)](mailto:chriswescley@gmail.com)
