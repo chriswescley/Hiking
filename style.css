@@ -891,3 +891,181 @@ footer a {
         font-size: 20px;
     }
 }
+/*responsive 375x Iphone X*/
+
+@media screen and (max-width: 600px){
+    
+    #menu {
+        width: 375px;
+        margin-left: 10px;
+    }
+    .top-detail {
+        height: 300px;
+        width: auto;
+    }
+    .hiking-section {
+        margin-top: 100px;
+        height: 900px;
+        background-position-y: 90px;
+        background-size:118vw;
+        }
+    .hiking {
+        width: 600px;
+        padding-top: 150px;
+        font-size: 20px;
+    }
+    .hike-with-us {
+        margin-top: 10px;
+        font-size: 15px;
+    }
+    .more-btn {
+        margin-top: 10px;
+        width: 150px;
+        font-size: 20px;
+    }
+    .hiking-text {
+        width: 250px;
+        padding-left: -20px;
+        font-size: 13px;
+        color: black;
+    }
+    .bottom-detail {
+        bottom: 235px;
+        width: 600px;
+    }
+    .lets-go-title {
+        margin-top: -240px;
+        margin-bottom: 20px;
+        font-size: 50px;
+    }
+    .lets-go-description {
+        width: 350px;
+    }
+    .itens {
+        display: flex;
+        flex-direction: column;
+    }
+    .lets-go {
+        background-position-x: -320px;
+        background-position-y: 1350px;
+    }
+    .show-btn-div {
+        margin-left: 90px;
+    }
+    .grid-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .grid-img-1 {
+        width: 600px;
+    }
+    .grid-item-2 {
+        width: 600px;
+        height: 550px;
+    }
+    .grid-item-3 {
+        width: 600px;
+    }
+    .grid-img-2 {
+        width: 600px;
+        height: 450px;
+    }
+    .grid-item-2-text {
+        width: 400px;
+    }
+    .mountains-detail-top {
+        margin-top: -5px;
+        width: 600px;
+    }
+    .mountains {
+        width: 600px;
+        height: 900px;
+    }
+    .mountains-title {
+        width: 450px;
+        margin-left: 5%;
+    }
+    .moutains-text-p {
+        width: 350px;
+        margin-left: 13%;
+    }
+    .mountains-detail-bottom {
+        bottom: -150px;
+        width: 106%;
+    }
+    .explorer-detail-top {
+        width: 615px;
+    }
+    .explorer {
+        background-position-x: -500px;
+    }
+    .explorer-img {
+        width: 100%;
+    }
+    .explorer-title {
+        width: 375px;
+        margin-left: 150px;
+    }
+    .explorer-detail-bottom {
+        bottom:-150px;
+        width: 105%;
+    }
+    .testimonials {
+        margin-top: 200px;
+        display: flex;
+        flex-direction: column;
+    }
+    .testimonials-title {
+        margin-top: 50px;
+    }
+    .quote-icon {
+        margin-left: 0px;
+        margin-right: 40%;
+    }
+    .quote-text {
+        width: 350px;
+        font-size: 20px;
+    }
+    .quote-autor {
+        margin-left: 10px;
+        margin-right: 0px;
+    }
+    .subscribe {
+    }
+    .subscribe-detail-top {
+        margin-top: 75px;
+        width: 600px;
+    }
+    .subscribe-text {
+        width: 100%;
+    }
+    .subscribe-detail-bottom {
+        bottom: -100px;
+    }
+    #email-form {
+        width: 250px;
+        height: 45px;
+    }
+    .form-submit {
+        width: 250px;
+        height: 45px;
+    }
+    footer {
+        height: 1500px;
+    }
+    .footer-detail-top {
+        width: 600px;
+    }
+    #footer-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-links {
+        margin-left: 94px;
+    }
+}
+
+
+
+
