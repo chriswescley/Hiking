@@ -1,5 +1,5 @@
 <h4 align="center"> 
-  Teste 🧠 Rethink 🧠
+  Reking Template
 </h4>
 
 
